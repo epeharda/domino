@@ -1,0 +1,29 @@
+
+".container" : {
+	layout :  'vertical'  ,
+	height: Titanium.UI.SIZE
+}
+
+"#row" : {
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE
+}
+
+"#BillNum" :{
+	left:'5dp',
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	font : {
+		fontSize : '18 dp'
+	}
+}
+
+"#shortTitle" : {
+	left:'5dp',
+	top:'5dp',
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	font : {
+		fontSize : '16 dp'
+	}	
+}
