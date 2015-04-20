@@ -1,10 +1,6 @@
 <Alloy>
 	<NavigationWindow>
 		<Window class="container">
-			<LeftNavButton platform="ios">
-				<Button title="Back" onClick="init" />
-			</LeftNavButton >
-			
 			<TableView id="tView" onClick="billTypeClicked" onSwipe="init"/>
 		</Window>
 	</NavigationWindow>

@@ -2,6 +2,8 @@
  * @author Mervin Thomas
  */
 exports.getBillHead = function(bType,_callback) {
+	console.log('getBillHead')
+	console.log(bType)
 	var url = "http://www.leg.state.co.us/demo/iLegislate.nsf/jBill.xsp?bill="+bType;
 	
 	var client = Ti.Network.createHTTPClient({
