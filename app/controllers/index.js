@@ -1,3 +1,9 @@
+var allBills = Alloy.Collection.bill;
+allBills.fetch();
+$.index.open();
+
+
+/*
 var bTypes = [{
 	"title" : "HB"
 }, {
@@ -53,4 +59,5 @@ function billTypeClicked(e) {
 };
 
 init();
-$.index.open();
+*/
+

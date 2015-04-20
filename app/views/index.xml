@@ -1,7 +1,10 @@
 <Alloy>
+	<Collection src = "bill"></Collection>
 	<NavigationWindow>
 		<Window class="container">
-			<TableView id="tView" onClick="billTypeClicked" onSwipe="init"/>
+			<TableView dataCollection = "bill" top="10" id="tView" onClick="billTypeClicked" onSwipe="init">
+				<TableViewRow title = "{title}" color="black"></TabelViewRow>
+			</TableView>
 		</Window>
 	</NavigationWindow>
 </Alloy>
