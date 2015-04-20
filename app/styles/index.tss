@@ -4,7 +4,3 @@
 	border: "solid blue"
 }
 
-"#tView":{
-	width : Titanium.UI.SIZE,
-	height : Titanium.UI.SIZE
-}
