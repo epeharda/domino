@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>coleg.mobile.domino</id>
+    <id>com.regina.peyfuss</id>
     <name>domino</name>
     <version>1.0</version>
-    <publisher>mervinthomas</publisher>
+    <publisher>mervin thomas</publisher>
     <url>http://www.leg.state.co.us</url>
     <description>undefined</description>
     <copyright>2015 by mervinthomas</copyright>
