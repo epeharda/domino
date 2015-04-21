@@ -10,9 +10,7 @@ function transform(model){
 	Ti.API.info('billNum: ' + attrs.allBills[0].BillNum  );
 	var length = attrs.allBills.length;
 	Ti.API.info('length: ' + attrs.allBills.length );
-	
-
-	return attrs.allBills[0].BillNum;
+	return attrs;
 }
 
 //$.mainWindow.addEventListener('close', function(){
