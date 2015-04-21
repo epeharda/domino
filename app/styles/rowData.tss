@@ -1,4 +1,3 @@
-
 ".container" : {
 	layout :  'vertical'  ,
 	height: Titanium.UI.SIZE
@@ -9,7 +8,7 @@
 	height : Titanium.UI.SIZE
 }
 
-"#BillNum" :{
+"#billNum" :{
 	left:'5dp',
 	width : Titanium.UI.SIZE,
 	height : Titanium.UI.SIZE,

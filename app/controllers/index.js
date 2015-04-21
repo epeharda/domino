@@ -1,7 +1,35 @@
-var allBills = Alloy.Collection.bill;
-allBills.fetch();
-$.index.open();
+var allBills = Alloy.Collections.bill;
+//console.log (allBills);
+console.log ("printing");
 
+
+//Convert the model and make into a title property
+function transform(model){
+	var attrs = model.toJSON();
+	Ti.API.info('attrs: ' + JSON.stringify(attrs));
+	Ti.API.info('billNum: ' + attrs.allBills[0].BillNum  );
+	var length = attrs.allBills.length;
+	Ti.API.info('length: ' + attrs.allBills.length );
+	
+
+	return attrs.allBills[0].BillNum;
+}
+
+//$.mainWindow.addEventListener('close', function(){
+//	$.destroy();
+//});
+
+ 
+ //function showBills(e){
+ //	var bill = allBills.at(e.index);
+ //	var detail = Alloy.createController ('bill', bill).getView();
+ //	detail.open;
+ 	
+// }
+ 
+allBills.fetch();
+$.index.open(); 
+ 
 
 /*
 var bTypes = [{
