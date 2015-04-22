@@ -1,6 +1,6 @@
 <Alloy>
 	<Collection src="bill"/>
-	<Window>	
+	<Window class = "container">	
 			<TableView id="table" dataCollection="bill" dataTransform="transform"   top="10">
 			<Require src="rowData"/>
 			</TableView>

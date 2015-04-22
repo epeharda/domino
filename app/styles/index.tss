@@ -1,6 +1,7 @@
-"Window": {
-	backgroundColor: '#fff',
-	navBarHidden: true,
+".container": {
+	backgroundColor: "white",
+	ayout :  'vertical' ,
+	height: Titanium.UI.SIZE,
 	exitOnClose: true
 }
 

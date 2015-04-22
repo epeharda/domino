@@ -1,4 +1,4 @@
 <Alloy>
-	<TableViewRow id="row" title = "{BillNum}">	
+	<TableViewRow id="row" title = "{custom}" onClick= "showBill">	
 	</TableViewRow>
 </Alloy>

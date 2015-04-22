@@ -1,4 +1,4 @@
-$.index.open();
+
 Alloy.Collections.bill.fetch();
 
 
@@ -7,6 +7,7 @@ function transform(model){
 	var modelR = model.toJSON();
 	Ti.API.info('model: ' + JSON.stringify(modelR));
 	Ti.API.info('billNum: ' + modelR.BillNum  );
+	modelR.custom = modelR.BillNum; //+ " " + modelR.shortTitle;
 	return modelR;
 }
 
@@ -14,13 +15,7 @@ $.index.addEventListener('close', function(){
 	$.destroy();
 });
 
- 
- //function showBills(e){
- //	var bill = allBills.at(e.index);
- //	var detail = Alloy.createController ('bill', bill).getView();
- //	detail.open;
- 	
-// }
+$.index.open();
  
 
  

@@ -1,0 +1,35 @@
+".container" : {
+	backgroundColor : "white",
+	layout :  'vertical'  ,
+	height: Titanium.UI.SIZE
+}
+
+
+"#billNumDetail" :{
+	left:'20dp',
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	font : {
+		fontSize : '14dp'
+	}
+}
+
+"#shortTitleDetail" : {
+	left:'20dp',
+	top:'15dp',
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	font : {
+		fontSize : '12dp'
+	}	
+}
+
+"#backButton": {
+	width: 200,
+	height: 30,
+	title: 'Back',
+	style: Ti.UI.iPhone.SystemButtonStyle,
+	top : 10
+	
+	
+}

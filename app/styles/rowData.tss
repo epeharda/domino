@@ -5,7 +5,11 @@
 
 "#row" : {
 	width : Titanium.UI.SIZE,
-	height : Titanium.UI.SIZE
+	height : Titanium.UI.SIZE,
+	font : {
+		fontSize : '15 dp'
+	}
+	
 }
 
 "#billNum" :{
