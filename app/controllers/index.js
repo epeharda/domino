@@ -7,7 +7,6 @@ function transform(model){
 	var modelR = model.toJSON();
 	Ti.API.info('model: ' + JSON.stringify(modelR));
 	Ti.API.info('billNum: ' + modelR.BillNum  );
-	Ti.API.info('length: ' + modelR.length );
 	return modelR;
 }
 
