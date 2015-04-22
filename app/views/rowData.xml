@@ -1,6 +1,4 @@
 <Alloy>
-	<TableViewRow id="row">
-			<Label id="billNum" text ="{BillNum}"></Label>
-			<Label id="shortTitle" text="{shortTitle}"></Label> 
+	<TableViewRow id="row" title = "{BillNum}">	
 	</TableViewRow>
 </Alloy>

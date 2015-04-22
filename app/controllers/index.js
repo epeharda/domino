@@ -1,21 +1,19 @@
-var allBills = Alloy.Collections.bill;
-//console.log (allBills);
-console.log ("printing");
+$.index.open();
+Alloy.Collections.bill.fetch();
 
 
 //Convert the model and make into a title property
 function transform(model){
-	var attrs = model.toJSON();
-	Ti.API.info('attrs: ' + JSON.stringify(attrs));
-	Ti.API.info('billNum: ' + attrs.allBills[0].BillNum  );
-	var length = attrs.allBills.length;
-	Ti.API.info('length: ' + attrs.allBills.length );
-	return attrs;
+	var modelR = model.toJSON();
+	Ti.API.info('model: ' + JSON.stringify(modelR));
+	Ti.API.info('billNum: ' + modelR.BillNum  );
+	Ti.API.info('length: ' + modelR.length );
+	return modelR;
 }
 
-//$.mainWindow.addEventListener('close', function(){
-//	$.destroy();
-//});
+$.index.addEventListener('close', function(){
+	$.destroy();
+});
 
  
  //function showBills(e){
@@ -25,8 +23,8 @@ function transform(model){
  	
 // }
  
-allBills.fetch();
-$.index.open(); 
+
+ 
  
 
 /*
