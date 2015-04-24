@@ -1,7 +1,12 @@
 <Alloy>
 	<Collection src="bill"/>
-	<Window class = "container">	
+	<Window class = "container">
+		<View id ="topNav"> 
+		<Button id="launch" onClick ="launch">Launch PDFViewer</Button>
+		</View>
+		
 			<TableView id="table" dataCollection="bill" dataTransform="transform"   top="10">
+				
 			<Require src="rowData"/>
 			</TableView>
 	</Window>

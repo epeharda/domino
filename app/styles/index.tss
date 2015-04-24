@@ -1,8 +1,14 @@
 ".container": {
-	backgroundColor: "white",
-	ayout :  'vertical' ,
+	backgroundColor: 'white',
+	layout :  'vertical' ,
 	height: Titanium.UI.SIZE,
 	exitOnClose: true
+}
+
+
+"#topNav":{
+	backgroundColor: '#d3d3d3',
+	height: '50pd'
 }
 
 "#title": {
@@ -20,5 +26,14 @@
 
 "#table": {
 	top: '50dp',
-	bottom: 0
+	bottom: '50dp'
+}
+"#launch": {
+	height: '50dp',
+	width: Ti.UI.FILL,
+	color: 'blue',
+	backgroundColor: '#d3d3d3',
+	textAlign: 'right',
+	top: '10dp',
+	right: '10dp',
 }
