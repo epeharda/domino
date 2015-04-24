@@ -9,7 +9,8 @@
 	height : Titanium.UI.SIZE,
 	font : {
 		fontSize : '14dp'
-	}
+	},
+	
 }
 "#shortTitleDetail" : {
 	left:'20dp',
