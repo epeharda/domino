@@ -5,4 +5,7 @@ function goBack() {
 	newWindow.open();
 }
 
+
+
+
 $.pdfViewer.open();

@@ -1,5 +1,10 @@
 <Alloy>
 	<Window class="container">
-		<Button id= "back" onClick="goBack">Back</Button>
+		<View id ="topNav"> 
+		<Button id= "backButton" onClick="goBack">Back</Button>
+		</View>	
+		<ScrollView id="scrollView">
+		<WebView id = "webview" ></WebView>
+		</ScrollView>
 	</Window>
 </Alloy>

@@ -1,0 +1,16 @@
+"#backButton": {
+	width: Ti.UI.FILL,
+	height: '30dp',
+	color: "blue",
+	top : '20dp',
+	textAlign: 'left',
+	font: {
+		fontSize: '12dp',
+		fontWeight: 'bold'
+	},
+}
+
+"#topNav":{
+	backgroundColor: '#d3d3d3',
+	height: '50pd'
+}

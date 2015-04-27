@@ -5,12 +5,6 @@
 	exitOnClose: true
 }
 
-
-"#topNav":{
-	backgroundColor: '#d3d3d3',
-	height: '50pd'
-}
-
 "#title": {
 	top: 0,
 	height: '50dp',
@@ -31,9 +25,13 @@
 "#launch": {
 	height: '50dp',
 	width: Ti.UI.FILL,
-	color: 'blue',
+	color: "blue",
 	backgroundColor: '#d3d3d3',
 	textAlign: 'right',
 	top: '10dp',
 	right: '10dp',
+	font: {
+		fontSize: '12dp',
+		fontWeight: 'bold'
+	},
 }

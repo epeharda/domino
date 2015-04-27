@@ -18,7 +18,8 @@ $.index.addEventListener('close', function(){
 function launch() {
 	var pdfViewer = Alloy.createController ('pdfViewer').getView();
 	Ti.API.info('model: ');
- 	pdfViewer.open;
+	pdfViewer.open();
+ 	
 }
 
 $.index.open();

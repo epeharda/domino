@@ -1,7 +1,9 @@
 <Alloy>
 	<Window class = "container">
+		<View id ="topNav"> 
+		<Button id= "backButton" onClick="goBack">Back</Button>
+		</View>
 		<Label id = "billNumDetail" >Bill Number</Label>
 		<Label id = "shortTitleDetail">Short Title</Label>
-		<Button id = "backButton" onClick = "goBack">Back </Button>
 	</Window>
 </Alloy>
